@@ -1,0 +1,4 @@
+import joblib
+
+# After training the model
+joblib.dump(model, '../models/phishing_detector.pkl')
