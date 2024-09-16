@@ -1,4 +1,4 @@
 import joblib
 
-# After training the model
-joblib.dump(model, '../models/phishing_detector.pkl')
+# Load the trained model
+model = joblib.load('../models/phishing_detector.pkl')
