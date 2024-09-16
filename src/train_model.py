@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
+import joblib
 
 def train_model(features_path, labels_path):
     features = pd.read_csv(features_path)
@@ -15,5 +16,5 @@ def train_model(features_path, labels_path):
 
 if __name__ == "__main__":
     model = train_model('../data/preprocessed_features.csv', '../data/preprocessed_labels.csv')
-    import joblib
     joblib.dump(model, '../models/phishing_detector.pkl')
+
