@@ -17,7 +17,7 @@ This project is an AI-powered system to detect phishing emails and websites usin
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Phishing-Detection-System.git
+    git clone https://github.com/Barrosleo/Phishing-Detection-System.git
     ```
 2. Navigate to the project directory:
     ```bash
